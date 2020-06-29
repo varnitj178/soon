@@ -7,7 +7,7 @@ int calculate(int,int);
 int main()
 {
 	int base,power;
-	cout<<"enter the base and power ";
+	cout<<"Enter the base and power of the number ";
 	cin>>base>>power;
 	int output = calculate( base, power);
     cout<<output;
